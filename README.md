@@ -17,6 +17,16 @@ Two-stage design (collect, then enrich) was chosen to handle
 AbuseIPDB's free-tier limit of 5 requests — caching to CSV lets the
 enrichment run repeatedly without breaking AbuseIPDB quota.
 
+
+## Screenshots
+
+![Threat_Intel_Gathered](images/threat_intel_data_ingested.png)
+
+![VirusTotal_Enrichment_Listing](images/data_listing.png)
+
+![Bigger_Picture](images/threat_intel_data_ingested_bigger_picture.png)
+
+
 ## Features
 - Pulls IPs from AbuseIPDB filtered by confidence ≥ 90%
 - Caches the IP list to CSV to respect AbuseIPDB free-tier limits
